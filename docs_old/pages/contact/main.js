@@ -1,4 +1,5 @@
 export default () => {
+  console.log("in contact.js");
   const container = document.createElement("div");
   container.classList.add("container");
   
