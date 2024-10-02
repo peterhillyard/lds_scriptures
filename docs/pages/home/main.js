@@ -5,7 +5,7 @@ export default () => {
   container.innerHTML = `
     <section class="page-section">
       <figure class="box">
-        <img class="home-img shadow" src="../../assets/logo.jpg">
+        <img class="home-img shadow" src="./assets/logo.jpg">
       </figure>
       <div class="box">
         <div class="section-text">
