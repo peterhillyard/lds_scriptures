@@ -9,9 +9,12 @@ const renderPage = () => {
   const page = validateHash(window.location.hash);
   container.innerHTML = '';
   container.appendChild(routes[page]);
+  console.log("hello world");
 }
 
 window.addEventListener('load', ()=> {
   renderPage();
   init();
 });
+
+console.log("end of index.js");
