@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Hello, World!</title>
+        <style>
+            #hello-world {
+                color: green;
+            }
+        </style>
+    </head>
+    <body>
+        <h1 id="hello-world">Hello, World!</h1>
+
+        <script>
+            function getRandomColor() {
+                var letters = '0123456789ABCDEF';
+                var color = '#';
+                for (var i = 0; i < 6; i++) {
+                color += letters[Math.floor(Math.random() * 16)];
+                }
+                return color;
+            }
+
+            var helloWorld = document.getElementById('hello-world');
+            helloWorld.style.color = getRandomColor();
+        </script>
+
+  </body>
+</html>
+
+
+<!-- <h1>LDS Scriptures</h1>
+
+<p>This is a test</p>
+
+<p>This repo includes both the ascii text of the scriptures Church of Jesus Christ of Latter-day Saints and a sqlite3 database of the same. The database makes it easy to create queries to find scriptures with particular words or phrases.</p>
+
+<p>The ascii files were originally produced at this website [Iron Rod ASCII Scriptures](http://ldsguy.tripod.com/Iron-rod/). He includes a history of how the ascii files were originally obtained and produced [here](http://ldsguy.tripod.com/Iron-rod/00.Readme.html).</p>
+
+<p>I wanted a way to query the scriptures so that I could include or exclude certain books, include and exclude certain phrases. A database was the answer to do these things quickly.</p> -->

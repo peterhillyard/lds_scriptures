@@ -1,40 +1,36 @@
+<!-- https://github.com/paclaraujo/single-page-application -->
 <!DOCTYPE html>
-<html>
-    <head>
-        <title>Hello, World!</title>
-        <style>
-            #hello-world {
-                color: green;
-            }
-        </style>
-    </head>
-    <body>
-        <h1 id="hello-world">Hello, World!</h1>
-
-        <script>
-            function getRandomColor() {
-                var letters = '0123456789ABCDEF';
-                var color = '#';
-                for (var i = 0; i < 6; i++) {
-                color += letters[Math.floor(Math.random() * 16)];
-                }
-                return color;
-            }
-
-            var helloWorld = document.getElementById('hello-world');
-            helloWorld.style.color = getRandomColor();
-        </script>
-
-  </body>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <link rel="icon" href="./assets/logo.jpg" type="image/gif" sizes="16x16">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <link href="https://fonts.googleapis.com/css?family=Amatic+SC&display=swap" rel="stylesheet">
+  <title>SPA</title>
+</head>
+<body>
+  <header class="shadow">
+    <nav class="navbar">
+      <ul class="navbar-list">
+        <li class="list">
+          <a class="title" href="/#">Cats</a>
+        </li>
+        <div class="pages-navbar">
+          <li class="list">
+            <a href="/#about">About</a>
+          </li>
+          <li class="list">
+            <a href="/#contact">Contact</a>
+          </li>
+        </div>
+      </ul>
+    </nav>
+  </header>
+  <main id="root"></main>
+  <footer class="shadow-inverse">
+    <p>Developed by <a href="https://github.com/paclaraujo">@paclaraujo</a> - Find me on <a href="https://www.linkedin.com/in/paclaraujo/">LinkedIn<p></p>
+  </footer>
+  <script src="index.js" type="module"></script>
+</body>
 </html>
-
-
-<!-- <h1>LDS Scriptures</h1>
-
-<p>This is a test</p>
-
-<p>This repo includes both the ascii text of the scriptures Church of Jesus Christ of Latter-day Saints and a sqlite3 database of the same. The database makes it easy to create queries to find scriptures with particular words or phrases.</p>
-
-<p>The ascii files were originally produced at this website [Iron Rod ASCII Scriptures](http://ldsguy.tripod.com/Iron-rod/). He includes a history of how the ascii files were originally obtained and produced [here](http://ldsguy.tripod.com/Iron-rod/00.Readme.html).</p>
-
-<p>I wanted a way to query the scriptures so that I could include or exclude certain books, include and exclude certain phrases. A database was the answer to do these things quickly.</p> -->
