@@ -1,8 +1,8 @@
 # Scriptures
 
-## Church of Jesus Christ of Latter-day Saints scriptures as a sqlite database
+## Scriptures as a sqlite database
 
-This page has a link to view the scripture passages used in the standard works of the [Church of Jesus Christ of Latter-day Saints](https://www.churchofjesuschrist.org)  as a database.
+This page has a link to view the scripture passages used in the standard works of the [Church of Jesus Christ of Latter-day Saints](https://www.churchofjesuschrist.org) as a database.
 
 The ascii files were originally produced by [Iron Rod ASCII Scriptures](http://ldsguy.tripod.com/Iron-rod/). The author includes a history of how the ascii files were originally obtained and produced [here](http://ldsguy.tripod.com/Iron-rod/00.Readme.html). To reiterate, the text is not from official sources.
 
