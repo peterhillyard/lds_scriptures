@@ -1,25 +1,21 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-    <title>VanillaJS Single Page App</title>
-    <link
-      rel="stylesheet"
-      href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
-      integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh"
-      crossorigin="anonymous"
-    />
-    <link rel="stylesheet" href="./styles/styles.css" />
-    <script type="module" src="./index.js"></script>
-  </head>
-  <body>
-    <!-- Header root (always visible) -->
-    <header id="header_root"></header>
-    <!-- Page root (content rendered based on URL) -->
-    <main id="page_root"></main>
-    <!-- Footer root (always visible) -->
-    <footer id="footer_root"></footer>
-  </body>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://fonts.googleapis.com/css?family=Amatic+SC&display=swap" rel="stylesheet">
+  <title>LDS Scriptures</title>
+</head>
+<body>
+  <h1>Church of Jesus Christ of Latter-day Saints scriptures as a sqlite database</h1>
+
+  <p>This repo includes a database of all scripture passages used in the standard works of the <a href="https://www.churchofjesuschrist.org">Church of Jesus Christ of Latter-day Saints</a>.</p>
+
+  <p>The ascii files were originally produced by <a href="http://ldsguy.tripod.com/Iron-rod/">Iron Rod ASCII Scriptures</a>. The author includes a history of how the ascii files were originally obtained and produced <a href="http://ldsguy.tripod.com/Iron-rod/00.Readme.html">here</a>.</p>
+
+  <p>To view the database online, I use <a href="http://inloop.github.io/sqlite-viewer">this sqlite viewer</a> backed by <a href="https://github.com/inloop/sqlite-viewer">this source code</a>. You just need to point the url to the database stored in this repo with</p>
+
+  <a href="https://inloop.github.io/sqlite-viewer/?url=https://raw.githubusercontent.com/peterhillyard/lds_scriptures/refs/heads/master/scriptures.db">https://inloop.github.io/sqlite-viewer/?url=https://raw.githubusercontent.com/peterhillyard/lds_scriptures/refs/heads/master/scriptures.db</a>
+
+</body>
 </html>
